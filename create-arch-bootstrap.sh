@@ -7,7 +7,7 @@
 
 # Package groups
 audio_pkgs="alsa-lib lib32-alsa-lib alsa-plugins lib32-alsa-plugins libpulse \
-	lib32-libpulse alsa-tools alsa-utils pipewire lib32-pipewire pipewire-pulse pipewire-jack lib32-pipewire-jack"
+	lib32-libpulse alsa-tools alsa-utils pipewire lib32-pipewire pipewire-alsa pipewire-pulse pipewire-jack lib32-pipewire-jack"
 
 core_pkgs="xorg-xwayland qt6-wayland wayland \
 	lib32-wayland qt5-wayland xorg-server-xephyr gamescope"
@@ -39,21 +39,14 @@ wine_pkgs="wine-staging winetricks-git wine-nine wineasio \
 	gtk3 lib32-gtk3 vulkan-icd-loader lib32-vulkan-icd-loader \
 	sdl2 lib32-sdl2 vkd3d lib32-vkd3d libgphoto2 \
 	openssl-1.1 lib32-openssl-1.1 libnm lib32-libnm \
-	cabextract wget gamemode lib32-gamemode mangohud lib32-mangohud"
+	cabextract wget gamemode lib32-gamemode"
 
 devel_pkgs="base-devel git meson mingw-w64-gcc cmake"
 
-gaming_pkgs="lutris steam steam-native-runtime steamtinkerlaunch minigalaxy \
-	gamehub legendary prismlauncher bottles playonlinux obs-studio \
-	retroarch retroarch-assets-ozone libretro-beetle-psx-hw sunshine \
-	libretro-blastem libretro-bsnes libretro-dolphin duckstation \
-	libretro-gambatte libretro-melonds libretro-mgba libretro-nestopia \
-	libretro-parallel-n64 libretro-pcsx2 libretro-picodrive libretro-ppsspp \
-	libretro-retrodream libretro-yabause pcsx2-avx-git"
+gaming_pkgs="lutris steam steam-native-runtime steamtinkerlaunch prismlauncher-git mcpelauncher-linux-git mcpelauncher-ui-git protontricks"
 
-extra_pkgs="nano ttf-dejavu ttf-liberation firefox mpv geany pcmanfm \
-	htop qbittorrent speedcrunch gpicview file-roller openbox lxterminal \
-	yt-dlp minizip nautilus genymotion jre17-openjdk"
+extra_pkgs="nano ttf-dejavu ttf-liberation chromium mpv pcmanfm \
+	htop gpicview file-roller openbox lxterminal yt-dlp genymotion jre17-openjdk"
 
 # Packages to install
 # You can add packages that you want and remove packages that you don't need
