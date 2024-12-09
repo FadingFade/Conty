@@ -9,7 +9,7 @@
 # You can add packages that you want and remove packages that you don't need
 # Apart from packages from the official Arch repos, you can also specify
 # packages from the Chaotic-AUR repo
-export packagelist="pipewire pipewire-alsa pipewire-pulse prismlauncher-git mesa mcpelauncher-linux-git mcpelauncher-ui-git zenity"
+export packagelist="pipewire pipewire-alsa pipewire-pulse jre17-openjdk prismlauncher-git mesa mcpelauncher-linux-git mcpelauncher-ui-git zenity"
 
 # If you want to install AUR packages, specify them in this variable
 export aur_packagelist=""
