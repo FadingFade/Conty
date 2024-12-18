@@ -6,7 +6,7 @@
 ########################################################################
 
 # Package groups
-core_pkgs="pipewire-alsa pipewire-pulse wget zenity chromium"
+core_pkgs="pipewire-alsa pipewire-pulse wget zenity google-chrome mesa-tkg-git lib32-mesa-tkg-git"
 
 wine_pkgs="wine-staging winetricks-git alsa-lib alsa-plugins cups dosbox ffmpeg giflib gnutls gst-plugins-base-libs \
 	   gtk3 lib32-alsa-lib lib32-alsa-plugins lib32-giflib lib32-gnutls lib32-gst-plugins-base lib32-gst-plugins-base-libs \
