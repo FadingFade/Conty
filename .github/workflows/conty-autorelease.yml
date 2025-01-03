@@ -36,21 +36,11 @@ jobs:
             rm conty.sh
           fi
 
-      - uses: dev-drprasad/delete-tag-and-release@v1.0
+      - uses: marvinpinto/action-automatic-releases@latest
         with:
-         tag_name: continuous
-         github_token: ${{ secrets.GITHUB_TOKEN }}
-         delete_release: true
-
-      - uses: rickstaa/action-create-tag@v1
-        id: "tag_create"
-        with:
-          tag: "continuous"
-
-      - uses: softprops/action-gh-release@v1
-        with:
-          files: ./conty.sh*
-          prerelease: true
-          draft: false
-          tag_name: continuous
-          name: Continuous build
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          title: Minecraft Build
+          automatic_release_tag: minecraft
+          prerelease: false
+          files: |
+            ./conty.sh*
