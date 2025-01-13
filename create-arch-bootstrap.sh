@@ -190,16 +190,9 @@ EOF
 
 generate_mirrorlist () {
 	cat <<EOF > mirrorlist
-Server = https://mirror1.sl-chat.ru/archlinux/\$repo/os/\$arch
-Server = https://mirror3.sl-chat.ru/archlinux/\$repo/os/\$arch
-Server = https://us.mirrors.cicku.me/archlinux/\$repo/os/\$arch
-Server = https://mirror.osbeck.com/archlinux/\$repo/os/\$arch
-Server = https://md.mirrors.hacktegic.com/archlinux/\$repo/os/\$arch
 Server = https://geo.mirror.pkgbuild.com/\$repo/os/\$arch
-Server = https://mirror.qctronics.com/archlinux/\$repo/os/\$arch
-Server = https://arch.mirror.constant.com/\$repo/os/\$arch
-Server = https://america.mirror.pkgbuild.com/\$repo/os/\$arch
-Server = https://mirror.tmmworkshop.com/archlinux/\$repo/os/\$arch
+Server = https://ftpmirror.infania.net/mirror/archlinux/\$repo/os/\$arch
+Server = https://mirror.rackspace.com/archlinux/\$repo/os/\$arch
 EOF
 }
 
